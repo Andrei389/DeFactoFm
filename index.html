@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <a class="logo">
+            <h2>DeFacto Fm</h2>
+        </a>
+
+    </section>
+
+    <section class="banner">
+       <div class="play">
+            <img src="img/play.png" id="play_btn">
+            </div>
+        <img src="img/1bg.jpg" class="fitBg">
+        <div class="content">
+            <h1>МУЗЫКА</h1>
+            <h2>ДЛЯ ТЕБЯ</h2>
+            <p>Просыпайтесь вместе с нами и<br>слушайте любимые песни</p>
+            <a href="https://play.google.com/store/apps/details?id=kz.radionostalgie.defactofm" class="btn_dw" target="_blank">Скачать
+            </a>
+        </div>
+        
+        <audio id="mySong">
+          <source src="http://radionostalgie.kz:8000/live" type="audio/mp3">
+      </audio>
+      
+      <script>
+        var mySong = document.getElementById("mySong"); 
+           var play_btn = document.getElementById("play_btn");
+           play_btn.onclick = function() { 
+              if (mySong.paused) {
+                  mySong.play();
+                  play_btn.src = "img/pause.png";
+              } else {
+                  mySong.pause();
+                  play_btn.src = "img/play.png";
+              }
+           }
+           
+        </script>
+        
+    </section>
+
+    <section class="about_second" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Концепция создания<br> интернет-радио</h2>
+            <p class="text">
+                На данный момент в Казахстане около семи ста тысяч людей с инвалидностью разных категорий. При этом значительная часть из них, это дети, не достигшие совершеннолетия. Как правило, большинство людей с особыми потребностями испытывают трудности с перемещением, и как следствие, находятся в информационном и культурном  вакууме. Именно поэтому, мы поставили себе цель, создать инклюзивное интернет-радио «DeFacto FM», которое станет источником единого без барьерного культурно-информационного пространства, где люди с особыми потребностями смогут реализовать свой творческий потенциал и стать активными участниками культурного процесса, а так же всегда будут в курсе всех финансово-правовых изменений в стране и мире. Слушая нас, вы не только всегда будите в курсе событий и новостей нашего города и страны в целом, но и сможете наслаждаться всеми музыкальными жанрами.  Ищите нас во всех соц. сетях и в плэймаркете! Для рекламы обращайтесь по номеру
+            </p>
+
+        </div>
+        <div class="imgBx">
+            <img src="img/img1.jpg" class="fitBg">
+        </div>
+    </section>
+
+    <section class="destination" id="destination">
+        <div class="conetnt">
+            <h2 class="titleText">Наши передачи на радио DeFacto Fm</h2>
+            <p class="text">
+
+            </p>
+        </div>
+        <div class="destinationList">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/destination1.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                    <h2>Destination One<br><span>Country Name</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/destination2.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                    <h2>Destination Two<br><span>Country Name</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/destination3.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                    <h2>Destination Three<br><span>Country Name</span></h2>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="imgBx_team">
+                    <img src="img/user1.jpg">
+                </div>
+                <div class="details">
+                    <h3>John Doe<br><span>Web Designer</span></h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="imgBx_team">
+                    <img src="img/user1.jpg">
+                </div>
+                <div class="details">
+                    <h3>John Doe<br><span>Web Designer</span></h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="imgBx_team">
+                    <img src="img/user1.jpg">
+                </div>
+                <div class="details">
+                    <h3>John Doe<br><span>Web Designer</span></h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="imgBx_team">
+                    <img src="img/user1.jpg">
+                </div>
+                <div class="details">
+                    <h3>John Doe<br><span>Web Designer</span></h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="imgBx_team">
+                    <img src="img/user1.jpg">
+                </div>
+                <div class="details">
+                    <h3>John Doe<br><span>Web Designer</span></h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="imgBx_team">
+                    <img src="img/user1.jpg">
+                </div>
+                <div class="details">
+                    <h3>John Doe<br><span>Web Designer</span></h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="imgBx_team">
+                    <img src="img/user1.jpg">
+                </div>
+                <div class="details">
+                    <h3>John Doe<br><span>Web Designer</span></h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="swiper.min.js">
+    </script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 60,
+                stretch: 0,
+                depth: 500,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+
+    </script>
+
+    <script src="app.js"></script>
+
+    <footer>
+
+        <div class="container__footer">
+            <div class="aboutus">
+                <h2>О нас</h2>
+                <p>Инклюзивное интернет-радио DeFacto Fm<br>На базе общественного объединения "Мейрiм".
+                </p>
+                <ul class="sci_1">
+                    <li><a href="https://www.facebook.com/groups/812691439472730" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://vk.com/defactofm" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i>
+                        </a></li>
+                    <li><a href="https://www.instagram.com/defacto_fm/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://www.youtube.com/channel/UCernk4ADFkqEEO8bPHtdvPg?view_as=subscriber" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h2>Контакты</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </span>
+                        <span>Талдыкорган, Алматинская область, Казахстан <br>микрорайон Каратал, 6А</span>
+                    </li>
+
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i>
+                        </span>
+                        <p><a href="tel:+77051919955">+7 705 191 99 55</a><br><a href="tel:+77051919955">+7 705 191 99 55</a></p>
+                    </li>
+
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                        <p><a href="mailto:defactofm@gmail.com">defactofm@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyrightText">
+        <p>Copyright 2021. All Rights Reserved.</p>
+    </div>
+
+</body>
+
+</html>
