@@ -184,12 +184,26 @@
        
 }
 
-@media (max-width: 430px) {
-    .sci_1 li a {
-        width: 30px;
-        height: 30px;
-        margin-right: 5px;
+@media (max-width: 435px) {
+    
+    .contact {
+        padding-left: 5%;
+        
     }
     
+    footer .container__footer .aboutus {
+        width: 60%;
+    }
+    
+    
+}
+
+@media (max-width: 410px) {
+    
+    .sci_1 li a {
+        width: 35px;
+        height: 35px;
+        margin-right: 5px;
+    } 
     
 }

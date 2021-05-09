@@ -76,7 +76,10 @@ section {
     text-decoration: none;
     font-size: 1.5em;
     padding-top: 50px;
-    text-shadow: black 0 0 5px;
+}
+
+.header .logo h2 {
+   text-shadow: black 0 0 5px;
 }
 
 .header .toggle img {
