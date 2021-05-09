@@ -76,6 +76,7 @@ section {
     text-decoration: none;
     font-size: 1.5em;
     padding-top: 50px;
+    text-shadow: black 0 0 5px;
 }
 
 .header .toggle img {
@@ -200,7 +201,8 @@ position: absolute;
 .text {
     color: #fff;
     font-size: 1em;
-}
+    }
+
 
 .about_second .imgBx {
     position: relative;
@@ -414,7 +416,7 @@ footer p {
 
 .contact .info {
     position: relative;
-    width: 140%;
+    width: 100%;
 }
 
 .contact .info li {

@@ -184,3 +184,12 @@
        
 }
 
+@media (max-width: 430px) {
+    .sci_1 li a {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    
+    
+}
