@@ -263,7 +263,7 @@ position: absolute;
 .destination .destinationList .box .content h2 {
     color: #fff;
     font-weight: 500;
-    line-height: 1em;
+    line-height: 0.9em;
 }
 
 .destination .destinationList .box .content h2 span {
